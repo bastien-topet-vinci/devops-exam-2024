@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1705335344869" clover="3.2.0">
-  <project timestamp="1705335344869" name="All files">
+<coverage generated="1705335433795" clover="3.2.0">
+  <project timestamp="1705335433795" name="All files">
     <metrics statements="17" coveredstatements="16" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1" elements="28" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="validations.js" path="C:\Ecole\Bloc 2\devops-exam-2024\devops-exam-2024-1\src\services\validations.js">
       <metrics statements="17" coveredstatements="16" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
