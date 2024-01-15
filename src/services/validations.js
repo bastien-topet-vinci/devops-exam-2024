@@ -2,9 +2,9 @@
 const isValid = (gamertag) =>{
     const specialCharacter = ['&','$','!','è','§','à','_'];
     for (let i = 0; i< 7; i++){
-        if (gamertag.includes(specialCharacter)){
+        if (gamertag.includes(specialCharacter[i])){
         return true;
-    }
+        }
     }
     
 
