@@ -1,10 +1,17 @@
 // TODO: Refactor validation function to follow the defined validations rules
 const isValid = (gamertag) =>{
-    if (gamertag.length >= 8){
+    const specialCharacter = ['&','$','!','è','§','à','_'];
+    for (let i = 0; i< 7; i++){
+        if (gamertag.includes(specialCharacter)){
         return true;
-    } else {
-        return false;
     }
+    }
+    
+
+    if (gamertag.length <= 8){
+        return true;
+    }
+    return false;
 
 }
 
